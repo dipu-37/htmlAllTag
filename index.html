@@ -1,17 +1,53 @@
-<html> 
-    <body>
-        <p><b>This text is bold</b></p>
-        <p><i>This text is italic</i></p>
-        <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
-        <h1>HTML Links</h1>
+<!DOCTYPE html>
+<html>
 
-         <p><a href="https://www.w3schools.com/">Visit W3Schools.com!</a></p>
-
-
-        <h2>Image Size</h2>
-        <p>Here we specify the width and height of an image with the width and height attributes:</p>
-        <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
-         
-
-    </body>
+   <head>
+      <title>Text Input Control</title>
+   </head>
+	
+   <body>
+      <form >
+         First name: <input type = "email" name = "first_name" placeholder="name" \>
+         <br>
+         <br>
+         Last name: <input type = "text" name = "last_name" \>
+         <br>
+         <br>
+         User ID : <input type = "text" name = "user_id" />
+         <br>
+         <br>
+         Password: <input type = "password" name = "password" />
+         <br>
+         <br>
+         Description : <br />
+         <textarea rows = "5" cols = "50" name = "description">
+            Enter description here...
+         </textarea>
+         <br>
+         <br>
+         <input type = "checkbox" name = "maths" value = "on"> Maths
+         <input type = "checkbox" name = "physics" value = "on"> Physics
+         <br>
+         <br>
+         <input type = "radio" name = "subject" value = "maths"> Maths
+         <input type = "radio" name = "subject" value = "physics"> Physics
+         <br>
+         <br>
+         <select name = "dropdown">
+            <option value = "Maths" selected>Maths</option>
+            <option value = "Physics">Physics</option>
+         </select>
+         <br>
+         <br>
+         <input type = "file" name = "fileupload" accept = "image/*" />
+         <br>
+         <br>
+         <input type = "submit" name = "submit" value = "Submit" />
+         <input type = "reset" name = "reset"  value = "Reset" />
+         <input type = "button" name = "ok" value = "OK" />
+         <input type = "image" name = "imagebutton" src = "/html/images/logo.png" />
+      </form>
+      </form>
+   </body>
+	
 </html>
